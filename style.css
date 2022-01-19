@@ -19,6 +19,7 @@ ol {
   background-color: grey;
   border: 1px solid black;
   box-sizing: border-box;
+  border-radius: 10px;
   cursor: pointer;
   color: white;
 }
