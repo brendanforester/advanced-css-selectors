@@ -13,11 +13,6 @@ ol {
   margin: 10px;
 }
 
-li {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .button {
   height: 40px;
   width: 80px;
@@ -62,4 +57,10 @@ div > p:nth-child(1) {
 
 span > div:nth-child(2) > p:nth-child(n+2):nth-child(-n+3) {
   color: white;
+}
+
+
+div > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
