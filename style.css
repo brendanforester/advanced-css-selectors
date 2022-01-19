@@ -13,6 +13,11 @@ ol {
   margin: 10px;
 }
 
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .button {
   height: 40px;
   width: 80px;
@@ -22,6 +27,9 @@ ol {
   border-radius: 10px;
   cursor: pointer;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
