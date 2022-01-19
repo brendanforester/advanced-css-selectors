@@ -4,16 +4,21 @@ div {
   height: 100px;
 }
 
-button {
-  margin: 10px;
-  border-radius: 10px;
+.button {
+  height: 40px;
+  width: 80px;
+  background-color: grey;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
 }
 
-button:hover {
+.button:hover {
   background-color: blue;
 }
 
-button:focus {
+.button:focus {
   width: 200px;
   height: 150px;
   border-radius: 0;
